@@ -3,11 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ecommerce- Tienda</title>
+     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Tienda</h1>
+    <header>
+        <h1 class="nombre-sitio">Tienda <span> Muebles </span></h1>
+    </header>
+    
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a  href="./index.html">Inicio</a>
+            <a  href="./nosotros.html">Nosotros</a>
+            <a  href="./tienda.html">Tienda</a>
+            <a  href="./blog.html">Blog</a>
+            <a  href="./galeria.html">Galeria</a>
+            <a  href="./contacto.html">Contacto</a>
+        </nav>
+    </div>
 
-    <a href="./index.html">Volver a Inicio</a>
+    <main class="contenido-principal contenedor">
+        <h2 class="text-center">Tienda</h2>
+         <div class="listado-productos">
+            <div class="producto">
+                <img src="img/producto1.jpg" alt="Imagen Producto"> 
+                <div class="texto-producto">
+                    <h3>Producto 1</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p class="precio">$1,000,000</p>
+
+                    <a class="btn" href="#">Agregar al carrito</a>
+                </div> <!-- Info de producto-->
+            </div> <!-- Primer producto -->
+
+            <div class="producto">
+                <img src="img/producto2.jpg" alt="Imagen Producto"> 
+                <div class="texto-producto">
+                    <h3>Producto 2</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p class="precio">$1,000,000</p>
+
+                    <a class="btn" href="#">Agregar al carrito</a>
+                </div> <!-- Info de producto-->
+            </div> <!-- segundo producto -->
+
+            <div class="producto">
+                <img src="img/producto3.jpg" alt="Imagen Producto"> 
+                <div class="texto-producto">
+                    <h3>Producto 3</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p class="precio">$1,000,000</p>
+
+                    <a class="btn" href="#">Agregar al carrito</a>
+                </div> <!-- Info de producto-->
+            </div> <!-- tercer producto -->
+
+            <div class="producto">
+                <img src="img/producto4.jpg" alt="Imagen Producto"> 
+                <div class="texto-producto">
+                    <h3>Producto 4</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p class="precio">$1,000,000</p>
+
+                    <a class="btn" class="btn" href="#">Agregar al carrito</a>
+                </div> <!-- Info de producto-->
+            </div> <!-- cuarto producto -->
+
+            <div class="producto">
+                <img src="img/producto5.jpg" alt="Imagen Producto"> 
+                <div class="texto-producto">
+                    <h3>Producto 5</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p class="precio">$1,000,000</p>
+
+                    <a class="btn" href="#">Agregar al carrito</a>
+                </div> <!-- Info de producto-->
+            </div> <!-- quinto producto -->
+
+            <div class="producto">
+                <img src="img/producto6.jpg" alt="Imagen Producto"> 
+                <div class="texto-producto">
+                    <h3>Producto 6</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p class="precio">$1,000,000</p>
+
+                    <a class="btn" href="#">Agregar al carrito</a>
+                </div> <!-- Info de producto-->
+            </div> <!-- sexto producto -->
+
+        </div> <!-- Fin de listado de producto-->
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
+
+        <div>
+                    <h3>Categorias</h3>
+                    <nav class="footer-menu">
+                        <a href="#">cocina</a>
+                        <a href="#">oficina</a>
+                        <a href="#">Jardin</a>
+                        <a href="#">Cochera</a>
+                        <a href="#">Dormitorios</a>
+                    </nav>
+                </div>
+
+                <div>
+                    <h3>Sobre nosotros</h3>
+                    <nav class="footer-menu">
+                        <a href="#">Nuestra historia</a>
+                        <a href="#">Mision, Vision y valores</a>
+                        <a href="#">Carreras</a>
+                        <a href="#">Politica de privacidad</a>
+                        <a href="#">Terminos del servicio</a>
+                    </nav>
+                </div>
+
+                <div>
+                    <h3>Soporte</h3>
+                    <nav class="footer-menu"">
+                        <a href="#">Preguntas frecuentes</a>
+                        <a href="#">Ayuda en linea</a>
+                        <a href="#">Confianza y seguridad</a>
+                    </nav>
+                </div>
+            </div>
+        <p class="copyright">Todos los derechos reservados. TiendaMuebles</p>
+    </footer>
 </body>
 </html>
